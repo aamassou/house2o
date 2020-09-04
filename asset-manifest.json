@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/house2o/static/css/main.5f361e03.chunk.css",
+    "main.js": "/house2o/static/js/main.210cee55.chunk.js",
+    "main.js.map": "/house2o/static/js/main.210cee55.chunk.js.map",
+    "runtime-main.js": "/house2o/static/js/runtime-main.97ed60c4.js",
+    "runtime-main.js.map": "/house2o/static/js/runtime-main.97ed60c4.js.map",
+    "static/js/2.3eda91fa.chunk.js": "/house2o/static/js/2.3eda91fa.chunk.js",
+    "static/js/2.3eda91fa.chunk.js.map": "/house2o/static/js/2.3eda91fa.chunk.js.map",
+    "index.html": "/house2o/index.html",
+    "precache-manifest.aa73e597d5dc145cdccac9eba3c6b52c.js": "/house2o/precache-manifest.aa73e597d5dc145cdccac9eba3c6b52c.js",
+    "service-worker.js": "/house2o/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/house2o/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3eda91fa.chunk.js.LICENSE.txt": "/house2o/static/js/2.3eda91fa.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/house2o/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97ed60c4.js",
+    "static/js/2.3eda91fa.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.210cee55.chunk.js"
+  ]
+}
