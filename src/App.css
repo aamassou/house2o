@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+#waterfall {
+  width: 100%;
+  height: 3500px;
+  background-image: url('./waterfall.jpg');
+  background-size: cover;
+}
+
+#waterfall::after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 3500px;
+  width: 100%;
+  background: linear-gradient(transparent, white);
+  pointer-events: none;
+}
+
+#waterfallContainer {
+  padding: 10px;
+  align-items: flex-start;
+}
+
+#headerTitle {
+  color: #FFF;
+  font-size: 100px;
+}  
+
+#headerSubtitle {
+  color: #FFF;
+  font-size: 75px;
+}
+
+@media (max-width: 767px) {
+  #headerTitle {
+    font-size: 75px;
+  }
+  
+  #headerSubtitle {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  #headerTitle {
+    font-size: 50px;
+  }  
+
+  #headerSubtitle {
+    font-size: 25px;
+  }
+}
