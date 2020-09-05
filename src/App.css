@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -42,6 +43,8 @@
   height: 3500px;
   background-image: url('./waterfall.jpg');
   background-size: cover;
+  padding-top: 50px;
+  box-sizing: border-box;
 }
 
 #waterfall::after {
@@ -63,27 +66,199 @@
 #headerTitle {
   color: #FFF;
   font-size: 100px;
-}  
+}
 
 #headerSubtitle {
   color: #FFF;
   font-size: 75px;
 }
 
+#house-background {
+  background-image: url('./house2.jpg');
+  height: 90%;
+  width: 80%;
+  background-size: cover;
+  position: relative;
+}
+
+#speaker {
+  position: absolute;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 1px 1px 10px black;
+  bottom: 110px;
+  right: 310px;
+}
+
+#cat {
+  position: absolute;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 1px 1px 10px black;
+  bottom: 120px;
+  right: 150px;
+}
+
+#tv {
+  position: absolute;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 1px 1px 10px black;
+  top: 300px;
+  right: 250px;
+}
+
+#bed {
+  position: absolute;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 1px 1px 10px black;
+  top: 385px;
+  right: 540px;
+  width: 250px;
+  height: 100px;
+}
+
+#car {
+  position: absolute;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 1px 1px 10px black;
+  bottom: 0px;
+  left: -150px;
+}
+
+#battery {
+  position: absolute;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 1px 1px 10px black;
+  bottom: 180px;
+  left: 120px;
+}
+
+#lightning {
+  position: absolute;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 1px 1px 10px black;
+  top: 100px;
+  right: -90px;
+  width: 200px;
+}
+
+#bedImg {
+  display: none;
+}
+
 @media (max-width: 767px) {
   #headerTitle {
     font-size: 75px;
   }
-  
+
   #headerSubtitle {
     font-size: 50px;
+  }
+
+  #speaker {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    margin: 20px 0;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #cat {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    margin: 20px 0;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #tv {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    margin: 20px 0;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #bed {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    margin: auto;
+    margin: 20px 25px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #car {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    margin: 20px 0;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #lightning {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    margin: 20px 60px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #battery {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    margin: 20px 0;
+    left: 0px;
+    top: 0px;
+  }
+
+  #house-background {
+    background-image: none;
+  }
+
+  #bedImg {
+    display: block;
+    margin: auto;
   }
 }
 
 @media (max-width: 400px) {
   #headerTitle {
     font-size: 50px;
-  }  
+  }
 
   #headerSubtitle {
     font-size: 25px;
